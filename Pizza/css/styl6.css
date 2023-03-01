@@ -1,0 +1,59 @@
+header {
+	background-color: #4e885c;
+	color: orange;
+	text-align: center;
+	height: 110px;
+}
+
+img {
+	height: 100px;
+}
+
+.srodkowy img {
+	height: 200px;
+	float: right;
+}
+
+main {
+	width: 100%;
+}
+.lewy {
+	background-color: #72a37d;
+	width: 30%;
+	height: 300px;
+	float: left;
+}
+.srodkowy {
+	background-image: url("/./img/logo.png");
+	background-repeat: no-repeat;
+	background-position: right;
+	background-color: #a2c3a9;
+	width: 40%;
+	height: 300px;
+	float: left;
+}
+.prawy {
+	background-color: #72a37d;
+	text-align: center;
+	width: 30%;
+	height: 300px;
+	float: left;
+}
+.dolny {
+	background-color: #a2c3a9;
+	text-align: center;
+	height: 250px;
+	clear: both;
+	width: 100%;
+}
+footer {
+	background-color: #4e885c;
+	color: orange;
+	width: 100%;
+	float: left;
+}
+.prawy a {
+	background-color: orange;
+	color: green;
+	padding: 15px;
+}

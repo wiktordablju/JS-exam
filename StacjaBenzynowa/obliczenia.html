@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Stacja Paliw</title>
+		<link rel="stylesheet" href="./css/styl3.css" />
+		<script src="script.js"></script>
+	</head>
+	<body>
+		<header>
+			<div class="banerlewy">
+				<h1>Stacja Paliw</h1>
+			</div>
+			<div class="banerprawy">
+				<a href="stacja.html"><img src="./img/home.png" alt="" /></a>
+				<a href="obliczenia.html"><img src="./img/znak.png" alt="" /></a>
+			</div>
+		</header>
+		<div class="glowny">
+			<h3>Oblicz koszt paliwa</h3>
+			<label for="rodzajPaliwa"
+				>Rodzaj paliwa (1-benzyna, 2-olej napedowy, 3-lpg):
+			</label>
+			<br />
+			<input type="number" name="" id="rodzajPaliwa" /> <br />
+			<br />
+			<label for="litry">Ile litrów</label><br />
+			<input type="number" id="litry" /><br />
+			<br />
+			<button onclick="obliczcenepaliwa()">OBLICZ</button>
+			<span id="koncowacenapaliwa"></span>
+		</div>
+		<main>
+			<div class="mainlewy">
+				<a href="kwerendy.txt">Pobierz kwerendy</a>
+			</div>
+			<div class="mainprawy">
+				<img src="./img/samochod.png" alt="samochód" />
+			</div>
+		</main>
+		<footer>
+			<p>Stronę opracował: 00000000000</p>
+		</footer>
+	</body>
+</html>

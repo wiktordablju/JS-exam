@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Pizzeria Margherita</title>
+		<link rel="stylesheet" href="./css/styl6.css" />
+		<script src="script.js"></script>
+	</head>
+	<body>
+		<header>
+			<h2>Najlepsza pizza w mieście</h2>
+			<img src="./img/logo.png" alt="" class="img" />
+		</header>
+		<main>
+			<div class="lewy">
+				<p>U nas zamowisz pizze z dowozem</p>
+				<a href="./img/logo.png">Nasze logo</a>
+			</div>
+			<div class="srodkowy">
+				<h3>Pizzeria Margherita</h3>
+				<p>ul. Botaniczna 4, Zielona Góra</p>
+				<img src="./img/logo.png" alt="" />
+			</div>
+			<div class="prawy">
+				<h3>Oferta</h3>
+				<ol>
+					<li>Pizza</li>
+					<li>Lasagne</li>
+					<li>Sałatki</li>
+				</ol>
+				<p><a href="Oferta.txt" download>Pobierz pełną ofertę</a></p>
+			</div>
+			<div class="dolny">
+				<h3>Oblicz koszt dostawy</h3>
+				<input type="checkbox" id="check" />Jestem z Zielonej Góry <br />
+				<p>albo</p>
+				Podaj liczbę kilometrow od Zielonej Gory:<input
+					type="number"
+					id="num"
+				/>
+				<input type="submit" value="Oblicz" onclick="obliczanie()" />
+				<p id="wynik"></p>
+			</div>
+		</main>
+		<footer>
+			<p>Strone internetowa opracowal: 00000000000</p>
+		</footer>
+	</body>
+</html>
