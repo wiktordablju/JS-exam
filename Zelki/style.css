@@ -1,0 +1,31 @@
+* {
+	color: white;
+}
+
+body {
+	padding-top: 60px;
+	background-color: pink;
+}
+
+.table {
+	margin-left: 10px;
+	border: 1px solid blue;
+	width: 30%;
+	float: left;
+	margin-right: 20px;
+}
+
+td,
+tr {
+	border: 1px solid blue;
+}
+
+.form {
+	width: 66%;
+	float: left;
+}
+
+input,
+button {
+	color: black;
+}

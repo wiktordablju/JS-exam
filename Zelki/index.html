@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Zelki</title>
+		<link rel="stylesheet" href="style.css" />
+		<script src="script.js"></script>
+	</head>
+	<body>
+		<div class="main">
+			<div class="table">
+				<h2>Oferta</h2>
+				<br />
+				<table>
+					<tr>
+						<td>Ksztaly</td>
+						<td>Kolory</td>
+					</tr>
+					<tr>
+						<td>
+							<ol>
+								<li>mis</li>
+								<li>zabka</li>
+								<li>serce</li>
+							</ol>
+						</td>
+						<td>
+							<ol>
+								<li>czerwony</li>
+								<li>niebieski</li>
+								<li>zolty</li>
+								<li>inny</li>
+							</ol>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div class="form">
+				<p>Podaj numer ksztaltu:</p>
+				<input type="number" id="shapeNumber" />
+				<p>Skomponuj swoj kolor w RGB:</p>
+				<label>R:</label><input type="number" id="red" /> <label>G:</label
+				><input type="number" id="green" /> <label>B:</label
+				><input type="number" id="blue" /> <br /><br />
+				<button onclick="order()">Zamow</button> <br />
+				<br />
+				<p id="shape"></p>
+				<button id="color">Wybrany kolor</button> <br />
+			</div>
+		</div>
+	</body>
+</html>
