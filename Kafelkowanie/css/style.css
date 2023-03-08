@@ -1,0 +1,12 @@
+h1 {
+	color: green;
+}
+
+.button {
+	height: 60px;
+	width: 100px;
+	background-color: green;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
