@@ -1,0 +1,14 @@
+body {
+	background-color: lightgray;
+}
+h2 {
+	text-align: center;
+}
+
+table {
+	margin-left: 5%;
+}
+
+.output {
+	text-align: center;
+}
