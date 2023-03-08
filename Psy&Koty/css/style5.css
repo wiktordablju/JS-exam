@@ -19,7 +19,7 @@ nav {
 	float: left;
 }
 
-#panel-gorny {
+.topPanel {
 	background-color: #fff4cc;
 	width: 80%;
 	height: 300px;
@@ -27,12 +27,25 @@ nav {
 	float: left;
 }
 
-#panel-dolny {
+.topPanel img {
+	width: 15%;
+	margin: 20px;
+}
+
+.botPanel {
 	background-color: #dbcc93;
 	width: 80%;
 	height: 450px;
 	text-align: center;
 	float: right;
+}
+
+.botPanel img {
+	border: 4px solid #9692b1;
+}
+
+.botPanel img:hover {
+	border: 4px solid grey;
 }
 
 footer {
@@ -43,17 +56,4 @@ footer {
 
 a {
 	color: white;
-}
-
-#panel-gorny img {
-	width: 15%;
-	margin: 20px;
-}
-
-#panel-dolny img {
-	border: 4px solid #9692b1;
-}
-
-#panel-dolny img:hover {
-	border: 4px solid grey;
 }
