@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Dziendziel4aT - Kolorwanie</title>
+		<link rel="stylesheet" href="./css/style.css" />
+		<script src="./js/script.js"></script>
+	</head>
+	<body>
+		<div class="wybor">
+			<p>Dopasuj kolor strony wybierajac cyfre (0-9)</p>
+			<input type="number" id="cyfra" min="0" max="9" />
+			<input type="button" onclick="wybor()" value="DOBIERZ KOLOR" />
+			<p id="id-wynik"></p>
+		</div>
+
+		<div id="wynik" class="wynik">
+			<p>Dopasuj kolor diva wybierajac cyfre (0-9)</p>
+			<input type="number" id="cyfra2" min="0" max="9" />
+			<input type="button" onclick="wybordiv()" value="DOBIERZ KOLOR" />
+			<p id="id-wynik-div"></p>
+		</div>
+	</body>
+</html>
