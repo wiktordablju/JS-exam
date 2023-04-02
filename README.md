@@ -1,4 +1,3 @@
-# SzkolaJS
-## ALL OF THIS IS IN POLISH
-Projekty ze szkoły w **JavaScript**  
-**Nie wszystkie praktyki używane w tych kodach są dobre, wszystko robione by wpasować się w klucz egzaminu**
+# JS - Egzamin
+
+Zadania egzaminacyjne w JS robione w szkole na lekcjach Specjalizacja (II semestr) oraz PAI (II semestr). (Przez to że są to zadania egzamniacyjne są one często wykonywane w sposób archaiczny)
