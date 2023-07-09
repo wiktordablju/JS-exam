@@ -1,3 +1,1 @@
-# JS - Egzamin
-
-Zadania egzaminacyjne w JS robione w szkole na lekcjach Specjalizacja (II semestr) oraz PAI (II semestr). (Przez to że są to zadania egzamniacyjne są one często wykonywane w sposób archaiczny)
+# JavaScript mock exams,  i know they are really archaic but they have to be done this way
