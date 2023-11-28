@@ -1,0 +1,14 @@
+Zapytanie 1: wybierające jedynie pola nazwa i pasmo z tabeli szczyty dla szczytów wyższych niż 1500 m
+SELECT nazwa, pasmo FROM szczyty WHERE wysokosc > 1500;
+
+
+Zapytanie 2: wybierające jedynie nazwę najwyższego szczytu w tabeli szczyty
+SELECT nazwa FROM szczyty ORDER BY wysokosc DESC LIMIT 1;
+
+
+Zapytanie 3: tworzące użytkownika leon@localhost z hasłem Leon%Zawodowiec
+CREATE USER 'leon'@'localhost' IDENTIFIED BY 'Leon%Zawodowiec';
+
+
+Zapytanie 4: Nadające użytkownikowi leon@localhost jedynie wszystkie prawa do manipulowania danymi we wszystkich tabelach bazy gory
+GRANT SELECT, INSERT, UPDATE, DELETE ON gory.* TO leon@localhost;
